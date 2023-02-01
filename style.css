@@ -1,0 +1,129 @@
+body{background: #060606;}
+a { 
+  transition: background-size .4s ease;
+  color:#ffffff;
+  text-decoration: none;}
+.crazy-wrap{
+  width: 600px;
+  height: 400px;
+  background: var(--back1);
+  margin: 250px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  text-align: justify;
+  color: #eee;
+  font: 12px Hind;
+}
+.crazy-imagen{
+  overflow: hidden;
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  border: 15px solid var(--back1);
+  z-index: 25;
+}
+.crazy-title{
+  font: 900 30px Poppins;
+  position: absolute;
+  bottom: 60px;
+  left: 345px;
+  letter-spacing: -3px;
+  text-transform: lowercase;
+  color: transparent;
+  -webkit-text-stroke: var(--color) 1px;
+  line-height: 40px;
+  text-align: left;
+  z-index: 4;
+}
+.crazy-title b{
+  color: var(--color);
+}
+.crazy-icon i{
+  position: absolute;
+  font-size: 270px;
+  right: 170px;
+  color: var(--back1);
+  -webkit-text-stroke: var(--color) 1px;
+  top: 00px;
+}
+.crazy-quote{
+  position: absolute;
+  padding: 20px;
+  bottom: 0px;
+  font: 200 9px calibri;
+  text-transform: uppercase;
+  width: 125px;
+  color:#565656;
+  left: 370px;
+  text-align: center;
+}
+.crazy-links{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+}
+.crazy-links a{
+  text-decoration: none;
+  font-size: 15px;
+  color: #eee;
+    transition: all .6s linear;
+  margin-right: 5px;
+  border-radius: 100%;
+}
+.crazy-svg{
+  color: var(--color);
+  position: absolute;
+}
+.crazy-links i{
+  width: 35px;
+  height: 35px;
+  display: block;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 13px;
+  position: relative;
+}
+.crazy-circle{
+   fill: var(--back2);
+  stroke: var(--color);
+  stroke-dasharray: 100;
+  stroke-miterlimit: 10;
+  stroke-dashoffset: 100;
+  transition: all .6s linear; 
+}
+.crazy-links a:hover .crazy-circle{
+  stroke-dashoffset: 0;
+}
+.crazy-links a:hover{
+  color: var(--color);
+    transition: all .6s linear;
+}
+.crazy-datos{
+  position: absolute;
+  top: 175px;
+  left: 50px;
+    width: 150px;
+}
+.crazy-dd{
+  background: var(--back2);
+  padding: 7px;
+  border-radius: 10px;
+  font: 10px calibri;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.crazy-dd i{
+  background: var(--color);
+  padding: 7px;color:#000000;
+  border-radius: 10px;
+  position: relative;
+  left: -10px;
+}
